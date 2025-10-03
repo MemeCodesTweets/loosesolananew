@@ -17,7 +17,7 @@ export default function Home() {
 
         {/* Content grid */}
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-16">
-          {/* Character image - positioned to overflow on mobile */}
+          {/* Character image */}
           <div className="relative z-10 mx-auto w-full max-w-md lg:max-w-none">
             <Image
               src="/about.png"
@@ -36,8 +36,15 @@ export default function Home() {
             </h2>
 
             <p className="font-beba text-base leading-relaxed text-gray-300 md:text-lg">
-              Loose is our inner degen cut free—raw, chaotic, and alive. Through daily live streams on PumpFun,
-              @mariaartpro brings this character to life, channeling pure emotion into art. On X and socials, Loose
+              Loose is our inner degen cut free—raw, chaotic, and alive. Through daily live streams on PumpFun,{" "}
+              <Link
+                href="https://x.com/mariaartpro"
+                target="_blank"
+                className="text-[#8B7FD9] hover:underline"
+              >
+                @mariaartpro
+              </Link>{" "}
+              brings this character to life, channeling pure emotion into art. On X and socials, Loose
               shifts through different forms, always expressing freedom at its core.
             </p>
 
@@ -52,7 +59,6 @@ export default function Home() {
               </Link>
 
               {/* Decorative arrow */}
-              {/* Decorative arrow - absolute positioned, larger, pointing at button */}
               <Image
                 src="/arrow_10.svg"
                 alt=""
