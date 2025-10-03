@@ -60,7 +60,7 @@ export default function Home() {
 
               {/* Decorative arrow */}
               <Image
-                src="/arrow_10.svg"
+                src="/Arrow_10.svg"
                 alt=""
                 width={180}
                 height={90}
